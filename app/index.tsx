@@ -35,19 +35,16 @@ export default function signin() {
             </Text>
           </View>
           <Link href="/signup" asChild>
-            <Button className="w-3/6 mb-4 ">
+            <Button className="w-full rounded-full w-3/6 mb-4 ">
               <ButtonText className="font-nunito-extrabold">
-                {" "}
                 Create an account
               </ButtonText>
             </Button>
           </Link>
 
           <Link href="/signin" asChild>
-            <Button className="w-3/6 mb-4 bg-white">
-              <ButtonText className="text-black font-nunito-extrabold">
-                Sign in
-              </ButtonText>
+            <Button className="w-full rounded-full w-3/6 mb-4">
+              <ButtonText className="font-nunito-extrabold">Sign in</ButtonText>
             </Button>
           </Link>
         </View>
