@@ -17,7 +17,7 @@ export default function signin() {
       <ScrollView contentContainerClassName="h-full">
         <View className="flex-1  justify-center items-center px-5">
           <View className="w-48 h-80 border-4 border-gray-600 rounded-3xl mb-10 justify-center items-center">
-            <View className="w-20 h-20 border-2 bg-rose-400 rounded-xl overflow-hidden">
+            <View className="w-20 h-20 border-2 bg-white rounded-xl overflow-hidden">
               <Image className="w-full h-full" />
             </View>
           </View>
@@ -35,16 +35,16 @@ export default function signin() {
             </Text>
           </View>
           <Link href="/signup" asChild>
-            <Button className="w-full rounded-full w-3/6 mb-4 ">
-              <ButtonText className="font-nunito-extrabold">
+            <Button className="rounded-full w-3/6 mb-2" size="lg">
+              <ButtonText className="font-nunito-bold">
                 Create an account
               </ButtonText>
             </Button>
           </Link>
 
           <Link href="/signin" asChild>
-            <Button className="w-full rounded-full w-3/6 mb-4">
-              <ButtonText className="font-nunito-extrabold">Sign in</ButtonText>
+            <Button className="rounded-full w-3/6" size="lg" variant="outline">
+              <ButtonText className="font-nunito-bold">Sign in</ButtonText>
             </Button>
           </Link>
         </View>

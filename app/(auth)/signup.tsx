@@ -30,7 +30,7 @@ export default function signup() {
 
   return (
     <SafeAreaView className=" flex-1">
-      <View className="px-6">
+      <View className="p-5">
         <BackAction />
       </View>
       <KeyboardAvoidingView
@@ -43,7 +43,7 @@ export default function signup() {
         >
           <View className="flex-1 justify-center px-6">
             <VStack space="sm">
-              <Text className="font-nunito-extrabold  text-3xl">
+              <Text className="font-nunito-bold  text-3xl">
                 What's your phone number?
               </Text>
               <Input size="xl" className="rounded-xl">
@@ -59,13 +59,13 @@ export default function signup() {
           </View>
         </ScrollView>
         <View className="px-8 pb-10 gap-2">
-          <Text className="font-nunito-regular text-gray-500 text-center">
+          <Text className="font-nunito-regular text-typography-500 text-center">
             By tapping Continue, you are agreeing to{"\n"}our{" "}
-            <Text className="text-gray-700 font-nunito-semibold">
+            <Text className="text-typography-700 font-nunito-semibold">
               Terms of Service
             </Text>{" "}
             and{" "}
-            <Text className="text-gray-700 font-nunito-semibold">
+            <Text className="text-typography-700 font-nunito-semibold">
               Privacy Policy
             </Text>
           </Text>
@@ -75,7 +75,7 @@ export default function signup() {
             className="w-full rounded-full "
             // disabled={!isValidPhone}
           >
-            <ButtonText className="font-nunito-extrabold">Continue</ButtonText>
+            <ButtonText className="font-nunito-bold">Continue</ButtonText>
             <ButtonIcon as={ArrowRight} />
           </Button>
         </View>
